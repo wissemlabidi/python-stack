@@ -1,8 +1,8 @@
 class BankAccount:
     accounts = []
 
-    def __init__(self, int_rate=0, balance=0):
-        self.int_rate = int_rate
+    def __init__(self, interest_rate=0, balance=0):
+        self.interest_rate = interest_rate
         self.balance = balance
         BankAccount.accounts.append(self)
 
